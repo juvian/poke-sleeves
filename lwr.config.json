@@ -1,0 +1,24 @@
+{
+    "lwc": {
+        "modules": [
+            { "dir": "$rootDir/src" },
+            { "npm": "lightning-base-components" }
+        ]
+    },
+    "bundleConfig": { "exclude": ["lwc"] },
+    "routes": [
+      {
+        "id": "Home",
+        "path": "/",
+        "rootComponent": "modules/home",
+        "layoutTemplate": "$layoutsDir/main.html"
+      }
+    ],
+    "assets": [
+        {
+            "alias": "assetsDir",
+            "dir": "$rootDir/src/assets",
+            "urlPath": "/assets"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "commonjs",
+    "name": "sleeves",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "main": "node main.js",
+        "copy-lds": "robocopy node_modules/@salesforce-ux/design-system/assets/ src/assets/lds /s /e"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@salesforce-ux/design-system": "^2.25.6",
+        "@xata.io/client": "^0.0.0-next.va121e4207b94bfe0a3c025fc00b247b923880930",
+        "cookie-session": "^2.1.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express-openid-connect": "^2.17.1",
+        "lightning-base-components": "^1.22.3-alpha",
+        "lwr": "^0.16.1"
+    }
+}

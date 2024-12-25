@@ -1,0 +1,8 @@
+.env
+src/assets/lds
+node_modules
+.xata
+__lwr_cache__
+.xatarc
+credentials.txt
+package-lock.json
