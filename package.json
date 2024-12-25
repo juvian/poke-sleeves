@@ -2,10 +2,10 @@
     "type": "commonjs",
     "name": "sleeves",
     "version": "1.0.0",
-    "main": "main.js",
+    "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "main": "node main.js",
+        "main": "node server.js",
         "copy-lds": "robocopy node_modules/@salesforce-ux/design-system/assets/ src/assets/lds /s /e"
     },
     "author": "",
